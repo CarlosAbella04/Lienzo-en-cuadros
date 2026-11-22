@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lienzo en cuadros.vcxproj" Id="dcf9c453-6a4f-4126-894c-ae68c753adc8" />
+</Solution>
