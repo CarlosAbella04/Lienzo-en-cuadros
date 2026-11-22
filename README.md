@@ -127,10 +127,9 @@ flowchart TD
 ## Requisitos y cómo ejecutar
 
 - Windows y Visual Studio (el proyecto usa C++20).
-- Librerías: **GLFW** (`glfw3.lib`, `opengl32.lib`), **GLAD** (incluido: `glad.c`) y **Dear ImGui** (incluido).
-- Abrir `Lienzo_en_cuadros.slnx` en Visual Studio, configurar las rutas de GLFW y de los encabezados de GLAD si hace falta y ejecutar con **F5**.
+- Librerías incluidas en el repositorio: **GLFW** y los encabezados de **GLAD** en la carpeta `Libraries/`, **GLAD** (`glad.c`) y **Dear ImGui**.
+- Abrir `Lienzo en cuadros.slnx` en Visual Studio y ejecutar con **F5**. El proyecto encuentra las librerías automáticamente.
 - Los archivos `default.vert` y `default.frag` deben estar en la carpeta desde donde se ejecuta el programa.
-
 ## Tecnologías
 
 C++20 · OpenGL 3.3 (Core) · GLFW · GLAD · Dear ImGui
